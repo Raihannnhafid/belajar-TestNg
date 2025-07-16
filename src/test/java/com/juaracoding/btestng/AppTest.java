@@ -39,7 +39,7 @@ public class AppTest {
         signIn.setPassword(password);
 
         // Test steps 3 : Klik tomnol signIn (onSignIn())
-        boolean actual = signIn.onSignIn();
+        boolean actual = signIn.clickButtonSignIn();
 
         // validate (asserts)
         Assert.assertTrue(actual);

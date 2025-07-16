@@ -1,24 +1,35 @@
 package com.juaracoding.btestng;
 
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-/** */
-
 public class SignInTest {
+  private SignIn signIn;
+
+  @BeforeClass
+  public void setup() {
+    signIn = new SignIn();
+  }
+
+  @Test(priority = 1)
+  @Parameters("username")
+  public void fillUsername(String username) {
+    signIn.setUsername(username);
+    Assert.assertEquals(username, signIn.getUsername());
+  }
 
   @Test(priority = 2)
-    public void signInTest() {
-       System.out.println("Method SignInTest.sigIntest dijalankan ");
-    }
+  @Parameters("password")
+  public void fillPassword(String password) {
+    signIn.setPassword(password);
+    Assert.assertEquals(password, signIn.getPassword());
+  }
 
-     @Test(priority = 1, enabled = false)
-    public void dashboardTest() {
-        System.out.println("Method SignInTest.dashboardTest dijalankan");
-    }
-
-    @Test(priority = 3)
-    public void profilTest(){
-      System.out.println("Method SignInTest.profilTest dijalankan");
-    }
-
+  @Test(priority = 3)
+  public void clickButtonSignIn() {
+    boolean actual = signIn.clickButtonSignIn();
+    Assert.assertTrue(actual);
+  }
 }
