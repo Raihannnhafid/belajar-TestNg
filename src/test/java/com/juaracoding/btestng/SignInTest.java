@@ -11,7 +11,7 @@ public class SignInTest {
        System.out.println("Method SignInTest.sigIntest dijalankan ");
     }
 
-     @Test(priority = 1)
+     @Test(priority = 1, enabled = false)
     public void dashboardTest() {
         System.out.println("Method SignInTest.dashboardTest dijalankan");
     }
