@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.187" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.964" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire17844183650660453719\surefirebooter-20250715191116056_3.jar C:\Users\User\AppData\Local\Temp\surefire17844183650660453719 2025-07-15T19-11-15_743-jvmRun1 surefire-20250715191116056_1tmp surefire_0-20250715191116056_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire10744749032363657014\surefirebooter-20250716070642755_3.jar C:\Users\User\AppData\Local\Temp\surefire10744749032363657014 2025-07-16T07-06-42_433-jvmRun1 surefire-20250716070642755_1tmp surefire_0-20250716070642755_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\BelajarTestNg\BelajarTestNG\target\test-classes;D:\BelajarTestNg\BelajarTestNG\target\classes;C:\Users\User\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\User\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\User\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire17844183650660453719\surefirebooter-20250715191116056_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire10744749032363657014\surefirebooter-20250716070642755_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -56,18 +56,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="addTest" classname="com.juaracoding.btestng.CalculatorTest" time="0.009">
-    <system-out><![CDATA[Before suite berjalan
+  <testcase name="signInTest" classname="com.juaracoding.btestng.SignInTest" time="0.014">
+    <system-out><![CDATA[Method sigIntest dijalankan 
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="substractTest" classname="com.juaracoding.btestng.CalculatorTest" time="0.0"/>
-  <testcase name="tc003" classname="com.juaracoding.btestng.SignInTest" time="0.001">
-    <system-out><![CDATA[SignInTest.setup()
-TC003.
+  <testcase name="dashboardTest" classname="com.juaracoding.btestng.SignInTest" time="0.0">
+    <system-out><![CDATA[Method dashboardTest dijalankan
 ]]></system-out>
   </testcase>
 </testsuite>

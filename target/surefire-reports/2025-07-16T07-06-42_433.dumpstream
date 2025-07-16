@@ -1,4 +1,4 @@
-# Created at 2025-07-15T19:11:16.123
+# Created at 2025-07-16T07:06:42.835
 Boot Manifest-JAR contains absolute paths in classpath 'D:\BelajarTestNg\BelajarTestNG\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 'other' has different root
