@@ -2,16 +2,23 @@ package com.juaracoding.btestng;
 
 import org.testng.annotations.Test;
 
+/** */
+
 public class SignInTest {
 
-  @Test
+  @Test(priority = 2)
     public void signInTest() {
-       System.out.println("Method sigIntest dijalankan ");
+       System.out.println("Method SignInTest.sigIntest dijalankan ");
     }
 
-     @Test(dependsOnMethods =  {"signInTest"})
+     @Test(priority = 1)
     public void dashboardTest() {
-        System.out.println("Method dashboardTest dijalankan");
+        System.out.println("Method SignInTest.dashboardTest dijalankan");
+    }
+
+    @Test(priority = 3)
+    public void profilTest(){
+      System.out.println("Method SignInTest.profilTest dijalankan");
     }
 
 }
