@@ -1,46 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-15T19:11:17 ICT" name="Belajar TestNG Suite" finished-at="2025-07-15T19:11:17 ICT" duration-ms="80">
+  <suite started-at="2025-07-16T07:06:43 ICT" name="Belajar TestNG Suite" finished-at="2025-07-16T07:06:44 ICT" duration-ms="86">
     <groups>
     </groups>
-    <test started-at="2025-07-15T19:11:17 ICT" name="App Test" finished-at="2025-07-15T19:11:17 ICT" duration-ms="80">
-      <class name="com.juaracoding.btestng.CalculatorTest">
-        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:com.juaracoding.btestng.CalculatorTest@4ac3c60d]" started-at="2025-07-15T19:11:17 ICT" name="BeforeClass" finished-at="2025-07-15T19:11:17 ICT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeClass -->
-        <test-method signature="addTest()[pri:0, instance:com.juaracoding.btestng.CalculatorTest@4ac3c60d]" started-at="2025-07-15T19:11:17 ICT" name="addTest" finished-at="2025-07-15T19:11:17 ICT" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addTest -->
-        <test-method signature="substractTest()[pri:0, instance:com.juaracoding.btestng.CalculatorTest@4ac3c60d]" started-at="2025-07-15T19:11:17 ICT" name="substractTest" finished-at="2025-07-15T19:11:17 ICT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- substractTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.btestng.CalculatorTest@4ac3c60d]" started-at="2025-07-15T19:11:17 ICT" name="tearDown" finished-at="2025-07-15T19:11:17 ICT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.juaracoding.btestng.CalculatorTest -->
+    <test started-at="2025-07-16T07:06:43 ICT" name="App Test" finished-at="2025-07-16T07:06:44 ICT" duration-ms="86">
       <class name="com.juaracoding.btestng.SignInTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.juaracoding.btestng.SignInTest@3daa422a]" started-at="2025-07-15T19:11:17 ICT" name="beforeSuite" finished-at="2025-07-15T19:11:17 ICT" duration-ms="18" status="PASS">
+        <test-method signature="signInTest()[pri:0, instance:com.juaracoding.btestng.SignInTest@2473d930]" started-at="2025-07-16T07:06:44 ICT" name="signInTest" finished-at="2025-07-16T07:06:44 ICT" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.juaracoding.btestng.SignInTest@3daa422a]" started-at="2025-07-15T19:11:17 ICT" name="setup" finished-at="2025-07-15T19:11:17 ICT" duration-ms="0" status="PASS">
+        </test-method> <!-- signInTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.juaracoding.btestng.SignInTest@2473d930]" started-at="2025-07-16T07:06:44 ICT" name="dashboardTest" finished-at="2025-07-16T07:06:44 ICT" depends-on-methods="com.juaracoding.btestng.SignInTest.signInTest" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="tc003()[pri:0, instance:com.juaracoding.btestng.SignInTest@3daa422a]" started-at="2025-07-15T19:11:17 ICT" name="tc003" finished-at="2025-07-15T19:11:17 ICT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc003 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.btestng.SignInTest@3daa422a]" started-at="2025-07-15T19:11:17 ICT" name="tearDown" finished-at="2025-07-15T19:11:17 ICT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
+        </test-method> <!-- dashboardTest -->
       </class> <!-- com.juaracoding.btestng.SignInTest -->
     </test> <!-- App Test -->
   </suite> <!-- Belajar TestNG Suite -->
