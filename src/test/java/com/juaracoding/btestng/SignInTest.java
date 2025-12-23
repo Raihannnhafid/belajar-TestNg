@@ -1,34 +1,24 @@
 package com.juaracoding.btestng;
 
-import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+/** */
+
 public class SignInTest {
-  private String username;
-  private String password;
 
-  @BeforeClass
-  public void setup() {
-    username = "johansebastian";
-    password = "123qwe";
-  }
+  @Test(priority = 2)
+    public void signInTest() {
+       System.out.println("Method SignInTest.sigIntest dijalankan ");
+    }
 
-  @Test
-  public void tc003() {
-    SignIn signIn = new SignIn();
+     @Test(priority = 1, enabled = false)
+    public void dashboardTest() {
+        System.out.println("Method SignInTest.dashboardTest dijalankan");
+    }
 
-    signIn.setUsername(username);
-    signIn.setPassword(password);
-    boolean actual = signIn.onSignIn();
+    @Test(priority = 3)
+    public void profilTest(){
+      System.out.println("Method SignInTest.profilTest dijalankan");
+    }
 
-    Assert.assertTrue(actual);
-  }
-
-  @AfterClass
-  public void tearDown() {
-    username = "";
-    password = "";
-  }
 }
